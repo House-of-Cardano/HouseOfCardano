@@ -14,7 +14,12 @@ function App() {
   );
 }
 
-fetch("./poolMetadata.json")
+fetch("./poolMetadata.json", {
+    headers : { 
+    'Content-Type': 'application/json',
+    'Accept': 'application/json'
+  }
+})
   .then(function(resp) {
       return resp.json();
   })
