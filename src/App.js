@@ -14,4 +14,12 @@ function App() {
   );
 }
 
+fetch("./poolMetadata.json")
+  .then(function(resp) {
+      return resp.json();
+  })
+  .then(function(data) {
+      console.log(data);
+  })
+
 export default App;
