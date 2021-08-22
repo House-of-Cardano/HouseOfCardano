@@ -1,5 +1,8 @@
 import logo from "./svg_files/HoC_MASTER_v1_splitFour.svg";
-import RHS from "./svg_files/HoC_MASTER_v1_effectTwo.svg"
+import RHS from "./svg_files/HoC_MASTER_v1_effectOne.svg";
+import ADA from "./svg_files/ADA_symbol.svg";
+import HOC from "./svg_files/LOGO.svg"
+
 import "./App.css";
 
 function App() {
@@ -11,13 +14,20 @@ function App() {
           <h1 className="Landing-Page-Header">House of Cardano</h1>
         </header>
       </div>
+
       <div className="gateway">
+        <main className="logo">
+        <img src={HOC} className="" alt="logo" />
+        </main>
         <div className="LHS">
-          <h1>₳</h1>
+          <img src={ADA} className="" alt="logo" />
         </div>
         <div className="RHS">
-        <img src={RHS} className="" alt="logo" />
+          <img src={RHS} className="App-logo-gateway" alt="logo" />
         </div>
+
+        <footer>FOOTER tbd</footer>
+      
       </div>
     </div>
   );
