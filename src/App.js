@@ -1,4 +1,4 @@
-import logo from './HoC_4_illustrator.svg';
+import logo from './svg_files/HoC_MASTER_v1_splitFour.svg';
 import './App.css';
 
 function App() {
