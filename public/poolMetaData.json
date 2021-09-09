@@ -1,5 +1,6 @@
 {"name" : "House of Cardano",
  "description" : "Peace, love, music, cardano. Part of the proceeds will always go to charities for children",
  "ticker" : "HOCSP",
+ "poolHash":"6e9b2065a2305cc9eb9ad46c560f23101bef0d2e5fdd0eb60417a01ee74a8c46",
  "ada_pools" : "3de6f9833a2591e34133315fa80fdbf7",
  "homepage" : "https://house-of-cardano.io"}
