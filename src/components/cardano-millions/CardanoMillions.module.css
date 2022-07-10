@@ -1,0 +1,132 @@
+.header {
+  width: 100%;
+  padding: 0.5%;
+  background-image: linear-gradient(135deg, #4b034b 45%, #405ee1 135%);
+}
+
+.header::before {
+  opacity: 0.4;
+}
+
+.header a {
+  color: white;
+  padding: 2.5%;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: #b8a0b8;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid #b8a0b8;
+}
+
+.App2 {
+  text-align: center;
+}
+
+.App2Logo {
+  height: 70vmin;
+  pointer-events: none;
+  margin-left: -60%;
+  margin-top: -10%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App2Logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App2Header {
+  background-image: linear-gradient(135deg, #4b034b 30%, #405ee1 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.mainText::before {
+  opacity: 0.4;
+}
+
+.mainText {
+  margin-top: -33%;
+  margin-left: 33%;
+}
+
+.mainText h1 {
+  margin-left: -2%;
+  margin-bottom: 0;
+  color: white;
+  padding: 2%;
+  letter-spacing: 0.25rem;
+}
+
+.mainText h3 {
+  margin-bottom: 0;
+  color: white;
+  letter-spacing: 0.075rem;
+  padding-bottom: 1rem;
+}
+
+.mainText p {
+  margin-bottom: 0;
+  color: white;
+  letter-spacing: 0.075rem;
+  padding-bottom: 0.5rem;
+}
+
+.header2 {
+  width: 50%;
+  padding: 1.5% 0 0 0;
+  margin-top: 200%;
+  margin-left: 20%;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+}
+
+.header2::before {
+  opacity: 0.4;
+}
+
+.header2 a {
+  color: white;
+  padding: 5% 2.5% 2.5% 2.5%;
+  letter-spacing: 2px;
+  text-decoration: none;
+  margin-top: 2000%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header2 a:hover,
+.header2 a:active,
+.header2 a.active {
+  color: #b8a0b8;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid #b8a0b8;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Landing-Page-Header {
+    letter-spacing: 10px;
+    margin-left: 30%;
+    text-align: center;
+  }
+}

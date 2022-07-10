@@ -33,7 +33,7 @@
 }
 
 .Landing-Page-Header {
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   margin-left: 30%;
 }
 
@@ -46,8 +46,10 @@
   }
 }
 
-/* ------------- Start of Gateway Section ------------- */
-
-
-
-/* ------------- End of Gateway Section ------------- */
+@media screen and (max-width: 400px) {
+  .Landing-Page-Header {
+    letter-spacing: 10px;
+    margin-left: 30%;
+    text-align: center;
+  }
+}
