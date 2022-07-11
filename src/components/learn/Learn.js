@@ -33,7 +33,7 @@ const Learn = () => {
           <h2>What is the Cardano Millions Lottery?</h2>
         </div>
 
-        <container className={styles.flexContainer}>
+        <div className={styles.flexContainer}>
           <div>
             <h3>How Cardano Millions works</h3>
             <p className={styles.paragraphStyling}>
@@ -85,7 +85,7 @@ const Learn = () => {
               tenetur
             </p>
           </div>
-        </container>
+        </div>
       </div>
     </div>
   );
