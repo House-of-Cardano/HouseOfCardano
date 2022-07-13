@@ -46,14 +46,16 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+
+/* iPad Pro 1024 x 1366 */
+@media screen and (max-width: 1366px) {
   .Landing-Page-Header {
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     margin-left: 30%;
-    text-align: center;
+    margin-top: -20%;
+    font-size: 42px;
   }
 }
-
 
 /* iPhone 12 Pro Max 428 x 844 */
 @media screen and (max-width: 428px) {
@@ -61,6 +63,13 @@
     height: 70vmin;
     pointer-events: none;
     margin-left: -50%;
-    margin-top: -25%;
+    margin-top: -35%;
+  }
+  .Landing-Page-Header {
+    letter-spacing: 5px;
+    margin-left: 30%;
+    margin-top: -5%;
+    font-size: 28px;
   }
 }
+

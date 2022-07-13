@@ -35,14 +35,25 @@
   border-bottom: 2px solid #4b034b;
 }
 
-@media screen and (max-width: 428px) {
+/* iPad Pro 1024 x 1366 */
+@media screen and (max-width: 1366px) {
   .header {
-    margin-top: -18rem;
-    margin-left: 5rem;
+    margin-top: -17%;
+    margin-left: 20%;
     width: 100%;
     height: 3rem;
     font-size: 12px;
     opacity: 0.9;
-    /* background-image: linear-gradient(135deg, #7a41d6 30%, #405ee1 100%); */
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .header {
+    margin-top: -82%;
+    margin-left: 20%;
+    width: 100%;
+    height: 3rem;
+    font-size: 8px;
+    opacity: 0.9;
   }
 }
