@@ -53,3 +53,14 @@
     text-align: center;
   }
 }
+
+
+/* iPhone 12 Pro Max 428 x 844 */
+@media screen and (max-width: 428px) {
+  .App-logo {
+    height: 70vmin;
+    pointer-events: none;
+    margin-left: -50%;
+    margin-top: -25%;
+  }
+}
