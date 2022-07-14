@@ -46,9 +46,31 @@
   }
 }
 
+/* My Dell Computer estimated at 1800 x 1000 */
+@media screen and (max-width: 1800px) {
+  .App-logo {
+    height: 80vmin;
+    pointer-events: none;
+    margin-left: -50%;
+    margin-top: -10%;
+  }
+  .Landing-Page-Header {
+    letter-spacing: 5px;
+    margin-left: 20%;
+    margin-top: -10%;
+    font-size: 42px;
+  }
+}
+
 
 /* iPad Pro 1024 x 1366 */
 @media screen and (max-width: 1366px) {
+  .App-logo {
+    height: 80vmin;
+    pointer-events: none;
+    margin-left: -50%;
+    margin-top: -10%;
+  }
   .Landing-Page-Header {
     letter-spacing: 5px;
     margin-left: 30%;
@@ -68,7 +90,7 @@
   .Landing-Page-Header {
     letter-spacing: 5px;
     margin-left: 30%;
-    margin-top: -5%;
+    margin-top: -15%;
     font-size: 28px;
   }
 }
