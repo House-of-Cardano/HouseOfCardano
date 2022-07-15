@@ -38,10 +38,11 @@ const Learn = () => {
             <h3>How Cardano Millions works</h3>
             <p className={styles.paragraphStyling}>
               The Cardano Millions lottery works just like any other lottery,
-              but tickets are sold as cardano NFTs, and you purchase tickets
-              through a smart contract - all of which goes on in the Cardano
-              blockchain - how cool is that 😎! <br></br>
-              Your lottery ticket NFT is transferred to your wallet and contains
+              but tickets are sold as cardano NFTs, and you purchase these
+              tokens - the cardano millions token (CMT) - through a smart
+              contract - all of which goes on in the Cardano blockchain - how
+              cool is that 😎! <br></br>
+              Your lottery token NFT is transferred to your wallet and contains
               the details of which lottery you are playing in and of course,
               your lucky numbers. The winning numbers are the same as those from
               the EuroMillions lottery drawn every Friday (only the 5 main
@@ -74,7 +75,7 @@ const Learn = () => {
               Next, go to the Play section using the link above. Then simply
               follow the instructions which will take you through creating a
               temporary game wallet, funding that wallet, choosing your lucky
-              numbers and finally, minting the lottery ticket as a Cardano NFT.
+              numbers and finally, minting the lottery token as a Cardano NFT.
             </p>
           </div>
           <a
