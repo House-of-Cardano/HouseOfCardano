@@ -28,14 +28,15 @@ const Millions = () => {
         </p>
         <p>
           A great way to learn about blockchain, crypto currency and smart
-          contracts, and a whole lotta of fun
+          contracts, a way to contribute responsibly to charitable organisations
+          (10% of all funds collected are donated to charities) and a whole
+          lotta of fun
         </p>
         <p>
           Follow the links below to learn how to play or go straight to playing
           the game
         </p>
       </div>
-
 
       <div>
         <header className={styles.header2}>
@@ -47,7 +48,6 @@ const Millions = () => {
           </NavLink>
         </header>
       </div>
-
     </div>
   );
 };

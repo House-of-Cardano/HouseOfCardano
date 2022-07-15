@@ -167,5 +167,20 @@
     text-align: left;
     margin-left: 2%;
     width: 80%;
-  }
+   }
+   .linkStyling {
+    color: whitesmoke;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: -10%;
+    margin-bottom: 6%;
+    margin-left: 11%;
+   }
+   .linkStyling:hover,
+   .linkStyling:active,
+   .linkStyling.active {
+     color: #b8a0b8;
+     border-bottom: 2px solid #b8a0b8;
+   }
 }
