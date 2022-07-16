@@ -49,21 +49,11 @@ const Learn = () => {
               numbers are considered, not the star numbers as of yet). <br></br>
               If you played the winning numbers, you'll get your winnings
               transferred directly to your wallet. <br></br>
-              Winnings will be the total amount of collected funds split accross
-              all wining NFTs, less game fees and less a contribution to a
-              charitable organisation.
-              <br></br>
               If none of the minted NFTs contain the winning numbers, the
               collected funds will be staked on the HouseOfCardano stake pool
-              (HOCSP) and added to the pool for the next lottery, increasing the
-              amount of money up #forthewin NFTs are only valid for the lottery
-              instance that is being run. After the winning numbers have been
-              disclosed, the NFTs for that round become void. Minting the
-              cardano-millions-ticket (CMT) as a NFT and controlling the funds
+              (HOCSP) and added to the next lottery. <br></br>
+              Minting the CMT as a NFT and controlling the funds
               are all managed through smart contracts on the Cardano blockchain.
-              A panal of independent administrators ensure the security of these
-              smart contracts through an innovative approach to hash data
-              management
             </p>
           </div>
 
